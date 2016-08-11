@@ -52,6 +52,10 @@ nav ul li {
   font-size: 34px;
 }
 
+#textinformation section {
+  padding: 10px;
+}
+
 .curvedBox {
   border-radius: 10px;
   background-color: white;
@@ -122,4 +126,78 @@ a:hover {
 /* selected link */
 a:active {
     color: black;
+}
+
+/***** RESPONSIVE DESIGN *****/
+
+@media screen and (max-width: 350px) {
+  footer {
+    background-color: red;
+  }
+
+  .voteButton {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  section .circle {
+    border: 2px solid black;
+  }
+
+  #logo {
+    float: none;
+    text-align: center;
+    width: 100%;
+    font-size: 34px;
+  }
+
+  header {
+    height: 56px;
+  }
+
+  nav {
+    float: none;
+    padding-right: 3px;
+    text-align: centre;
+  }
+
+  nav ul {
+    font-size: 20px;
+    padding-top: 0px;
+    height: 100%;
+    margin: 0px;
+  }
+
+  nav ul li {
+    height: 100%;
+    text-align: centre;
+    border: none;
+  }
+
+  nav ul li a {
+    color: white;
+  }
+
+  #navbodyspace {
+    height: 6px;
+  }
+
+  #textinformation section {
+    font-size: 14px;
+  }
+
+  #mainimage img {
+    border: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .voteButton {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 50px;
+  }
 }
