@@ -39,15 +39,12 @@ body {
     border: 3px solid black;
     box-sizing: border-box; }
   body #textinformation section {
-    font-size: 20px;
-    margin: 0px;
-    margin: 4px 6px;
+    font-size: 0.4em;
+    margin: 4px 8px;
     padding: 10px;
     background-color: #f2f2f2; }
   body #textinformation .curvedBox {
     border-radius: 10px;
-    margin: 20px;
-    margin-top: 10px;
     padding-left: 4px;
     padding-top: 4px;
     border: 2px solid black; }
@@ -92,5 +89,16 @@ body {
     color: black; }
 
 /***** RESPONSIVE DESIGN *****/
+@media screen and (min-width: 408px) {
+  body #mainimage {
+    background-color: #595959;
+    padding-top: 8px; }
+    body #mainimage img {
+      width: 70%;
+      border: 3px solid black;
+      box-sizing: border-box;
+      margin-left: 15%; }
+  body footer {
+    background-color: green; } }
 
 /*# sourceMappingURL=style.css.map */
