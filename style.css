@@ -106,12 +106,49 @@ body {
     width: 44%;
     padding: 10px;
     background-color: #f2f2f2;
-    height: 100px; }
+    height: 80px;
+    margin: 0px;
+    margin-top: 4px; }
   body #textinformation #infobio {
-    float: left; }
+    float: left;
+    margin-left: 3%; }
   body #textinformation #otherratings {
-    float: right; }
+    float: right;
+    margin-right: 2%; }
   body footer {
-    background-color: purple; } }
+    background-color: purple;
+    height: 26px; } }
+@media screen and (min-width: 648px) {
+  body #textinformation {
+    width: 500px;
+    float: left; }
+    body #textinformation section {
+      width: 225px; }
+    body #textinformation #infobio {
+      float: left;
+      margin-left: 2px; }
+    body #textinformation #otherratings {
+      float: left;
+      margin-left: 2px;
+      margin-right: 0px; }
+  body #voteSection {
+    width: 148px;
+    float: right;
+    position: static;
+    margin-top: 16px; }
+    body #voteSection #voteDown {
+      float: left;
+      margin: 0px; }
+    body #voteSection #voteUp {
+      float: right;
+      margin: 0px; }
+    body #voteSection .voteButton {
+      width: 66px;
+      height: 66px;
+      text-align: center;
+      line-height: 66px; }
+
+  footer {
+    background-color: pink; } }
 
 /*# sourceMappingURL=style.css.map */

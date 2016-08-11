@@ -164,20 +164,78 @@ body {
         width: 44%;
         padding: 10px;
         background-color: #f2f2f2;
-        height: 100px;
+        height: 80px;
+        margin: 0px;
+        margin-top: 4px;
       }
 
       #infobio {
         float: left;
+        margin-left: 3%;
       }
 
       #otherratings {
         float: right;
+        margin-right: 2%;
       }
     }
 
     footer {
       background-color: purple;
+      height: 26px;
     }
   }
+}
+
+@media screen and (min-width: 648px) {
+  body {
+    #textinformation {
+      section {
+        width: 225px;
+      }
+
+      #infobio {
+        float: left;
+        margin-left: 2px;
+      }
+
+      #otherratings {
+        float: left;
+        margin-left: 2px;
+        margin-right: 0px;
+      }
+      width: 500px;
+      float: left;
+    }
+
+    #voteSection {
+      width: 148px;
+      float: right;
+      position: static;
+      margin-top: 16px;
+
+      #voteDown {
+        float: left;
+        margin: 0px;
+      }
+      #voteUp {
+        float: right;
+        margin: 0px;
+      }
+      .voteButton {
+        width: 66px;
+        height: 66px;
+        text-align: center;
+        line-height: 66px;
+      }
+    }
+  }
+
+  footer {
+    background-color: pink;
+  }
+}
+
+@media screen and (min-width: 718px) {
+
 }
