@@ -100,5 +100,18 @@ body {
       margin-left: 15%; }
   body footer {
     background-color: green; } }
+@media screen and (min-width: 570px) {
+  body #textinformation section {
+    font-size: 0.5em;
+    width: 44%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    height: 100px; }
+  body #textinformation #infobio {
+    float: left; }
+  body #textinformation #otherratings {
+    float: right; }
+  body footer {
+    background-color: purple; } }
 
 /*# sourceMappingURL=style.css.map */

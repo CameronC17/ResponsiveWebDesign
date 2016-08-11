@@ -135,9 +135,6 @@ body {
 
 
 /***** RESPONSIVE DESIGN *****/
-@media screen and (min-width: 408px) {
-  
-}
 
 @media screen and (min-width: 408px) {
   body {
@@ -154,6 +151,33 @@ body {
 
     footer {
       background-color: green;
+    }
+  }
+}
+
+@media screen and (min-width: 570px) {
+  body {
+
+    #textinformation {
+      section {
+        font-size: 0.5em;
+        width: 44%;
+        padding: 10px;
+        background-color: #f2f2f2;
+        height: 100px;
+      }
+
+      #infobio {
+        float: left;
+      }
+
+      #otherratings {
+        float: right;
+      }
+    }
+
+    footer {
+      background-color: purple;
     }
   }
 }
