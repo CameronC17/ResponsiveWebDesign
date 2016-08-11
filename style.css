@@ -8,11 +8,12 @@ body {
   /* selected link */ }
   body header {
     background-color: #ff9933;
-    height: 56px;
-    font-size: 90px;
+    height: 60px;
+    font-size: 1em;
     padding: 0px; }
     body header #logo {
-      float: left; }
+      font-size: 1em;
+      text-align: center; }
     body header nav {
       width: 300px;
       margin-top: 10px;
@@ -91,34 +92,5 @@ body {
     color: black; }
 
 /***** RESPONSIVE DESIGN *****/
-@media screen and (max-width: 350px) {
-  #logo {
-    float: none;
-    text-align: center;
-    width: 100%;
-    font-size: 34px; }
-
-  header {
-    height: 56px; }
-
-  nav {
-    float: none;
-    padding-right: 3px;
-    margin: auto;
-    width: 300px; }
-
-  nav ul {
-    font-size: 20px;
-    padding-top: 0px;
-    height: 100%;
-    margin: 0px; }
-
-  nav ul li {
-    height: 100%;
-    text-align: centre;
-    border: none; }
-
-  nav ul li a {
-    color: white; } }
 
 /*# sourceMappingURL=style.css.map */
