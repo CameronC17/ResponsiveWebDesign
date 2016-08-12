@@ -44,7 +44,22 @@ body {
       width: 100%;
       border: 3px solid black;
       box-sizing: border-box;
+      position: relative;
     }
+    .hiddenFeelingText {
+      /*display: none;*/
+      position: absolute;
+      font-size: 14em;
+      top: 50px;
+    }
+    #hateAnimation {
+      color: red;
+    }
+    #likeAnimation {
+      color: green;
+    }
+    text-align: centre;
+    position: relative;
     width: 100%;
   }
 

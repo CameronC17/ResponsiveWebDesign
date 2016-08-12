@@ -35,11 +35,23 @@ body {
   body #navbodyspace {
     height: 4px; }
   body #mainimage {
+    text-align: centre;
+    position: relative;
     width: 100%; }
     body #mainimage img {
       width: 100%;
       border: 3px solid black;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      position: relative; }
+    body #mainimage .hiddenFeelingText {
+      /*display: none;*/
+      position: absolute;
+      font-size: 14em;
+      top: 50px; }
+    body #mainimage #hateAnimation {
+      color: red; }
+    body #mainimage #likeAnimation {
+      color: green; }
   body #textinformation section {
     font-size: 0.4em;
     margin: 4px 8px;
