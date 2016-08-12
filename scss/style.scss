@@ -45,12 +45,16 @@ body {
       border: 3px solid black;
       box-sizing: border-box;
       position: relative;
+      z-index: -1;
     }
     .hiddenFeelingText {
       /*display: none;*/
       position: absolute;
-      font-size: 14em;
-      top: 50px;
+      font-size: 12em;
+      width: 345px;
+      top: -40px;
+      left: 3%;
+      display: none;
     }
     #hateAnimation {
       color: red;
@@ -157,6 +161,7 @@ body {
 @media screen and (min-width: 408px) {
   body {
     #mainimage {
+      z-index: -2;
       background-color: #595959;
       padding-top: 8px;
       img {

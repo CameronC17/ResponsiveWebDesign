@@ -42,12 +42,16 @@ body {
       width: 100%;
       border: 3px solid black;
       box-sizing: border-box;
-      position: relative; }
+      position: relative;
+      z-index: -1; }
     body #mainimage .hiddenFeelingText {
       /*display: none;*/
       position: absolute;
-      font-size: 14em;
-      top: 50px; }
+      font-size: 12em;
+      width: 345px;
+      top: -40px;
+      left: 3%;
+      display: none; }
     body #mainimage #hateAnimation {
       color: red; }
     body #mainimage #likeAnimation {
@@ -107,6 +111,7 @@ body {
 /***** RESPONSIVE DESIGN *****/
 @media screen and (min-width: 408px) {
   body #mainimage {
+    z-index: -2;
     background-color: #595959;
     padding-top: 8px; }
     body #mainimage img {
