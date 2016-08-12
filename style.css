@@ -34,15 +34,19 @@ body {
           border: none; }
   body #navbodyspace {
     height: 4px; }
-  body #mainimage img {
-    width: 100%;
-    border: 3px solid black;
-    box-sizing: border-box; }
+  body #mainimage {
+    width: 100%; }
+    body #mainimage img {
+      width: 100%;
+      border: 3px solid black;
+      box-sizing: border-box; }
   body #textinformation section {
     font-size: 0.4em;
     margin: 4px 8px;
     padding: 10px;
-    background-color: #f2f2f2; }
+    background-color: #f2f2f2;
+    overflow-y: hidden;
+    height: 60px; }
   body #textinformation .curvedBox {
     border-radius: 10px;
     padding-left: 4px;
@@ -168,13 +172,18 @@ body {
         text-decoration: none;
         border-top: 2px solid black;
         border-bottom: 2px solid black; }
+  body #textinformation section {
+    font-size: 0.35em; }
+  body #mainimage {
+    text-align: centre; }
+    body #mainimage img {
+      width: 568px;
+      height: 568px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
   body #voteSection {
-    width: 160px;
-    /*#mainimage {
-      img {
-        max-height: 540px;
-      }
-    }*/ }
+    width: 160px; }
     body #voteSection .voteButton {
       margin-left: 10px; }
   body footer {
