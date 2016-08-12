@@ -183,6 +183,7 @@ body {
     footer {
       background-color: purple;
       height: 26px;
+      font-size: 0.6em;
     }
   }
 }
@@ -191,7 +192,7 @@ body {
   body {
     #textinformation {
       section {
-        width: 225px;
+        width: 230px;
       }
 
       #infobio {
@@ -229,13 +230,55 @@ body {
         line-height: 66px;
       }
     }
-  }
 
-  footer {
-    background-color: pink;
+    footer {
+      background-color: pink;
+      line-height: 26px;
+    }
   }
 }
 
-@media screen and (min-width: 718px) {
+@media screen and (min-width: 766px) {
+  body {
+    header {
+      height: 40px;
+      #logo {
+        width: 280px;
+        float: left;
+      }
+      nav {
+        padding-top: 10px;
+        width: 300px;
+        height: 40px;
+        float: right;
+      }
+      li {
+        /* mouse over link */
+        a:hover {
+            text-decoration: none;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+      }
+    }
 
+    #voteSection {
+      width: 160px;
+
+      .voteButton {
+        margin-left: 10px;
+      }
+
+      /*#mainimage {
+        img {
+          max-height: 540px;
+        }
+      }*/
+    }
+
+    footer {
+      background-color: lime;
+      height: 18px;
+    }
+  }
 }
