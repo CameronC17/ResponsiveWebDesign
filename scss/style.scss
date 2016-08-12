@@ -323,3 +323,36 @@ body {
     }
   }
 }
+
+@media screen and (min-width: 900px) {
+  body {
+    #textinformation {
+      section {
+        margin: 4px 8px;
+        padding: 10px;
+        background-color: #fff;
+        overflow-y: hidden;
+        height: 80px;
+      }
+
+      .curvedBox {
+        border-radius: 0px;
+        border: none;
+      }
+
+      #otherratings {
+        border-left: 2px dashed black;
+      }
+
+      width: 510px;
+      height: 100px;
+      margin-left: 100px;
+    }
+
+    footer {
+      background-color: yellow;
+    }
+
+    background-color: #595959;
+  }
+}

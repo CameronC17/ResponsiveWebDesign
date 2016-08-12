@@ -213,5 +213,25 @@ body {
   body footer {
     background-color: lime;
     height: 18px; } }
+@media screen and (min-width: 900px) {
+  body {
+    background-color: #595959; }
+    body #textinformation {
+      width: 510px;
+      height: 100px;
+      margin-left: 100px; }
+      body #textinformation section {
+        margin: 4px 8px;
+        padding: 10px;
+        background-color: #fff;
+        overflow-y: hidden;
+        height: 80px; }
+      body #textinformation .curvedBox {
+        border-radius: 0px;
+        border: none; }
+      body #textinformation #otherratings {
+        border-left: 2px dashed black; }
+    body footer {
+      background-color: yellow; } }
 
 /*# sourceMappingURL=style.css.map */
