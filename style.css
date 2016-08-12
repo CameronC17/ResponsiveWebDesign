@@ -1,3 +1,8 @@
+/* {
+  cursor: url(http://i.imgur.com/lXjb093.png), url(http://i.imgur.com/lXjb093.png), pointer;
+  cursor: url(http://i.imgur.com/lXjb093.png), -moz-zoom-in;
+  cursor: url(http://i.imgur.com/lXjb093.png), -webkit-zoom-in;
+}*/
 body {
   background-color: #fff;
   margin: 0px;
@@ -38,20 +43,21 @@ body {
     text-align: centre;
     position: relative;
     width: 100%; }
+    body #mainimage #actualImagePart {
+      position: relative;
+      width: 100%;
+      text-align: centre; }
     body #mainimage img {
       width: 100%;
       border: 3px solid black;
       box-sizing: border-box;
-      position: relative;
-      z-index: -1; }
+      z-index: -1;
+      position: relative; }
     body #mainimage .hiddenFeelingText {
-      /*display: none;*/
-      position: absolute;
-      font-size: 12em;
+      display: none;
+      font-size: 10em;
       width: 345px;
-      top: -40px;
-      left: 3%;
-      display: none; }
+      height: 0px; }
     body #mainimage #hateAnimation {
       color: red; }
     body #mainimage #likeAnimation {
@@ -180,6 +186,7 @@ body {
       float: left; }
     body header nav {
       padding-top: 10px;
+      margin-right: 15px;
       width: 300px;
       height: 40px;
       float: right; }

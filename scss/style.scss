@@ -1,3 +1,9 @@
+/* {
+  cursor: url(http://i.imgur.com/lXjb093.png), url(http://i.imgur.com/lXjb093.png), pointer;
+  cursor: url(http://i.imgur.com/lXjb093.png), -moz-zoom-in;
+  cursor: url(http://i.imgur.com/lXjb093.png), -webkit-zoom-in;
+}*/
+
 body {
   header {
     background-color: #ff9933;
@@ -40,21 +46,23 @@ body {
   }
 
   #mainimage {
+    #actualImagePart {
+      position: relative;
+      width: 100%;
+      text-align: centre;
+    }
     img {
       width: 100%;
       border: 3px solid black;
       box-sizing: border-box;
-      position: relative;
       z-index: -1;
+      position: relative;
     }
     .hiddenFeelingText {
-      /*display: none;*/
-      position: absolute;
-      font-size: 12em;
-      width: 345px;
-      top: -40px;
-      left: 3%;
       display: none;
+      font-size: 10em;
+      width: 345px;
+      height: 0px;
     }
     #hateAnimation {
       color: red;
@@ -152,8 +160,6 @@ body {
       color: black;
   }
 }
-
-
 
 
 /***** RESPONSIVE DESIGN *****/
@@ -271,6 +277,7 @@ body {
       }
       nav {
         padding-top: 10px;
+        margin-right: 15px;
         width: 300px;
         height: 40px;
         float: right;
