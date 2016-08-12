@@ -91,6 +91,10 @@ body {
       padding-top: 4px;
       border: 2px solid black;
     }
+
+    #otherratings {
+      display: none;
+    }
   }
 
   #voteSection {
@@ -163,7 +167,7 @@ body {
 
 
 /***** RESPONSIVE DESIGN *****/
-
+//408 pixels ##########################################
 @media screen and (min-width: 408px) {
   body {
     #mainimage {
@@ -178,12 +182,19 @@ body {
       }
     }
 
+    #textinformation {
+      #otherratings {
+        display: block;
+      }
+    }
+
     footer {
       background-color: green;
     }
   }
 }
 
+//570 pixels ##########################################
 @media screen and (min-width: 570px) {
   body {
 
@@ -217,10 +228,12 @@ body {
   }
 }
 
+//648 pixels ##########################################
 @media screen and (min-width: 648px) {
   body {
     #textinformation {
       section {
+        font-size: 0.35em;
         width: 230px;
       }
 
@@ -267,6 +280,7 @@ body {
   }
 }
 
+//766 pixels ##########################################
 @media screen and (min-width: 766px) {
   body {
     header {
@@ -324,6 +338,7 @@ body {
   }
 }
 
+//900 pixels ##########################################
 @media screen and (min-width: 900px) {
   body {
     #textinformation {
@@ -357,10 +372,15 @@ body {
   }
 }
 
+//1050 pixels ##########################################
 @media screen and (min-width: 1050px) {
   body {
     #voteSection {
       margin-right: 10%;
+    }
+
+    footer {
+      background-color: #ff9933;
     }
   }
 }
