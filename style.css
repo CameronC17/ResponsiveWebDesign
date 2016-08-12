@@ -89,6 +89,10 @@ body {
       float: right;
       background-color: #33cc33;
       margin-right: 30px; }
+    body #voteSection #checkbox {
+      display: none; }
+    body #voteSection #checkbox:checked + .square {
+      transform: rotate(180deg); }
     body #voteSection .voteButton {
       width: 80px;
       height: 80px;
@@ -97,7 +101,9 @@ body {
     body #voteSection .circle {
       border: 4px solid black;
       border-radius: 50%;
-      behavior: url(PIE.htc); }
+      behavior: url(PIE.htc);
+      transition: all 0.75s 0.25s;
+      transform: rotate(0); }
   body footer {
     position: fixed;
     width: 100%;
